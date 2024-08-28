@@ -41,4 +41,4 @@ def export():
     return send_file("./file.csv", as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
